@@ -1,0 +1,52 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test Reports
+test-output/
+surefire-reports/
+extent-reports/
+
+# Selenium WebDriver binaries
+*.exe
+chromedriver.log
+
+# Cucumber Reports
+cucumber-html-reports/
+cucumber.json
+
+# Java Specific
+*.class
+
+# Temporary files
+*.tmp
+*.swp
+*~
+*.bak
+*.backup
+
+# Environment Variables
+.env
