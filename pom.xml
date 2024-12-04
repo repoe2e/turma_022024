@@ -13,7 +13,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.25.0</version>
 		</dependency>
-		
+
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
@@ -30,4 +30,19 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>11</source> <!-- Update to the version you are using -->
+					<target>11</target> <!-- Update to the version you are using -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
